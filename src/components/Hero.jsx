@@ -36,7 +36,7 @@ const Hero = () => {
             />
           </h2>
           <h2 className="text-2xl text-varDark">Manage stress. Find balance. Change habits.</h2>
-          <p className="text-xl text-lightText pr-45 font-bodyFont">
+          <p className="text-xl text-lightText pr-45 font-bodyFont font-normal">
           I've worked in healthcare for over 30 years. I am a health and wellness coach certified by Mayo Clinic. 
            My passion is helping people find their WHY, identify their goals, and succeed in creating lasting change. 
           </p>

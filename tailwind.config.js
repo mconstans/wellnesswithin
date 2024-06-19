@@ -31,9 +31,6 @@ export default {
       styling: {
         margin: "0px",
       },
-      backgroundImage: {
-        "hero-image": "url('./waves.png')",
-      },
     },
   },
   plugins: [],

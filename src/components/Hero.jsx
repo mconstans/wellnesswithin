@@ -4,6 +4,7 @@ import Container from "./Container";
 import { Typewriter } from "react-simple-typewriter";
 import Button2 from "./ui/OutlineButton";
 import AboutMeImg from "../assets/aboutMe.jpg";
+import Waves from "../assets/waves.png"
 
 const Hero = () => {
   const words = [
@@ -14,7 +15,14 @@ const Hero = () => {
   ];
 
   return (
-    <div className="w-full bg-hero-image bg-cover p-10">
+    <div
+        className="w-full bg-cover p-10"
+        style={{
+          backgroundImage: `url(${Waves})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat',
+        }}>
       <Container className="py-20 flex justify-between">
         <div className="w-1/2 flex flex-col gap-y-5">
           <p className="text-2xl uppercase text-varDark">

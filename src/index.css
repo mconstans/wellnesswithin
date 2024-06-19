@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .iconstyle {
+    @apply text-2xl text-design2Color;
+  }
+  .portfolioIconStyle {
+    @apply bg-stone-600 w-10 h-10 inline-flex text-white text-base justify-center items-center rounded-md hover:text-designColor duration-500 hover:-translate-y-2 hover:bg-black shadow-md shadow-gray-200/10 hover:shadow-designColor/10;
+  }
+  .inputStyle {
+    @apply bg-static flex-1 rounded-md text-title3Color px-6 py-2 hover:bg-hover
+   placeholder:text-title3Color focus-within:bg-hover focus-within:outline-none duration-300;
+  }
+}

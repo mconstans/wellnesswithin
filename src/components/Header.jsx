@@ -25,7 +25,7 @@ const Header = () => {
               key={link}
               to={link}
               className={({ isActive }) =>
-                `${isActive ? "text-designColor" : "text-lightText"} text-medium font-headerFont hover:text-buttonHover cursor-pointer duration-300`
+                `${isActive ? "text-designColor" : "text-lightText"} text-light font-headerFont hover:text-buttonHover cursor-pointer duration-300`
               }
             >
               {title}
